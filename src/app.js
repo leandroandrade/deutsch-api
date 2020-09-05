@@ -15,7 +15,7 @@ app.use(helmet());
 app.use(express.json());
 app.use(rl.init());
 
-app.use('/deutsch', require('./routes'));
+app.use('/api/v1', require('./routes'));
 
 app.use(errorHandler);
 app.use(responseErrorHandler);
