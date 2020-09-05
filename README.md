@@ -1,4 +1,4 @@
-# node-essential
+# deutsch-api
 Minimalistic Nodejs API project Setup
 
 Installation:
